@@ -40,5 +40,8 @@ class ComplexNumber {
         ComplexNumber number2 = new ComplexNumber(7, 1);
         
         System.out.println(number1.toString());
+
+        ComplexNumber sum = number1.plus(number2);
+        System.out.println(sum.toString());
     }
 }
