@@ -42,6 +42,8 @@ class ComplexNumber {
         System.out.println(number1.toString());
 
         ComplexNumber sum = number1.plus(number2);
-        System.out.println(sum.toString());
+        System.out.println(sum.toString()); //11+9i
+        ComplexNumber sub = number1.sub(number2);
+        System.out.println(sub.toString()); //-3+7i
     }
 }
