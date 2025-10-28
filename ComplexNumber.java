@@ -35,6 +35,9 @@ class ComplexNumber {
     }
 
     public static void main() {
-
+        ComplexNumber number1 = new ComplexNumber(4, 8);
+        ComplexNumber number2 = new ComplexNumber(7, 1);
+        
+        System.out.println(number1.toString());
     }
 }
