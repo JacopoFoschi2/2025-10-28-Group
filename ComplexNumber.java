@@ -8,11 +8,12 @@ class ComplexNumber {
     }
 
     public double getImaginary() {
-        return 0;
+
+        return imaginary;
     }
 
     public double getReal() {
-        return 0;
+        return real;
     }
 
     public ComplexNumber plus(final ComplexNumber other) {
