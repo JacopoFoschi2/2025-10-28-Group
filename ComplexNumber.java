@@ -38,11 +38,12 @@ class ComplexNumber {
     public static void main() {
         ComplexNumber number1 = new ComplexNumber(4, 8);
         ComplexNumber number2 = new ComplexNumber(7, 1);
-        
+        //Test for toString method
         System.out.println(number1.toString());
-
+        //Test for sum
         ComplexNumber sum = number1.plus(number2);
         System.out.println(sum.toString()); //11+9i
+        //Test for subtraction
         ComplexNumber sub = number1.sub(number2);
         System.out.println(sub.toString()); //-3+7i
     }
