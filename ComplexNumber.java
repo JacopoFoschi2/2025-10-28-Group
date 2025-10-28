@@ -28,6 +28,12 @@ class ComplexNumber {
         return null;
     }
 
+
+    @Override
+    public String toString(){
+        return  this.real + " + " + this.imaginary;
+    }
+
     public ComplexNumber div(final ComplexNumber other) {
         final double commonDenominator = other.getReal() * other.getReal() + other.getImaginary() * other.getImaginary();
         final double realNumerator = this.getReal() * other.getReal() + this.getImaginary() * other.getImaginary();
@@ -46,5 +52,9 @@ class ComplexNumber {
         //Test for subtraction
         ComplexNumber sub = number1.sub(number2);
         System.out.println(sub.toString()); //-3+7i
+        //Test for multiplication
+        ComplexNumber mult = number1.times(number2);
+        System.out.println(mult.toString()); //28+8i
+
     }
 }
