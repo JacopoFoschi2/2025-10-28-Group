@@ -13,7 +13,7 @@ class ComplexNumber {
     }
 
     public double getReal() {
-        return 0;
+        return real;
     }
 
     public ComplexNumber plus(final ComplexNumber other) {
