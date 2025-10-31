@@ -54,6 +54,9 @@ class ComplexNumber {
         //Test for multiplication
         ComplexNumber mult = number1.times(number2);
         System.out.println(mult.toString()); //28+8i
+        //Test for division
+        ComplexNumber div = number1.div(number2);
+        System.out.println(div.toString()); //0.72+1.04i
 
     }
 }
