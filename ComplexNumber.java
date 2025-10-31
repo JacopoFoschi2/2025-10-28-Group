@@ -16,11 +16,11 @@ class ComplexNumber {
     }
 
     public ComplexNumber plus(final ComplexNumber other) {
-        return new ComplexNumber(this.getReal()+ other.getReal(),this.getImaginary()+other.getImaginary());
+        return new ComplexNumber(this.getReal() + other.getReal() , this.getImaginary() + other.getImaginary());
     }
 
     public ComplexNumber sub(final ComplexNumber other) {
-        return null;
+        return new ComplexNumber(this.getReal() - other.getReal() , this.getImaginary() - other.getImaginary()); ;
     }
 
     public ComplexNumber times(final ComplexNumber other) {
