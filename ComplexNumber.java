@@ -8,7 +8,6 @@ class ComplexNumber {
     }
 
     public double getImaginary() {
-
         return imaginary;
     }
 
