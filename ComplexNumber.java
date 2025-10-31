@@ -24,7 +24,7 @@ class ComplexNumber {
     }
 
     public ComplexNumber times(final ComplexNumber other) {
-        return null;
+        return new ComplexNumber( (this.getReal()*other.getReal()) - (this.getImaginary()*other.getImaginary()) , (this.getReal()* other.getImaginary()) + (this.getImaginary()* other.getReal()));
     }
 
 
